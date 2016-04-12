@@ -1,13 +1,8 @@
-* {
-  box-sizing: border-box;
-}
-.clearfix {
-  overflow: auto;
-}
+
 
 body {
   background-color: rgb(255, 255, 255);
-  ;
+  
 }
 
 ul {
@@ -24,7 +19,6 @@ a {
 }
 
 h1 { 
-  text-align: center;
   font-family: 'Fjalla One', sans-serif;
   font-style: bold;
   font-size: 40px;
@@ -32,27 +26,27 @@ h1 {
 }
 
 header {
+  text-align: center;
   color: black;
   padding-top: 10px ;
-  padding-left: 50px;
   margin-bottom: 0px;
   background-color: ;
-  opacity:  ;
-  position: 
   top: 120px;
-  margin: 0px;
+
 }
 
 .social {
-  position: ;
-  float: ;
-  margin-left: 30%;
-  /*margin-top: 5%;*/
+  margin-left: -10%
 }
 
 .social_item {
-  padding-left: 1%;
+  padding: 5px;
 
+}
+
+.websites h2 {
+  font-size: 32px;
+  text-align: center;
 }
 
 /*#header {
@@ -101,28 +95,6 @@ margin-top: 1000px;
   transition: .2s;
 }
 
-.bio_pic {
-  border-radius: 100%;
-  height: 150px;
-  width: 150px;
-  display: block;
-  margin: 0 auto;
-}
-
-.side_pic {
-  border-radius: 100%;
-  height: 80px;
-  width: 80px;
-  display: block;
-  margin: 1% 80%;
-  position: relative;
-}
-
-.side_nav {
-  color: #FF4F2C;
- padding-left: 10px;
- 
-}
 
 .second_nav {
   font-family: 'Fjalla One', sans-serif;
@@ -130,10 +102,20 @@ margin-top: 1000px;
   font-size: 20px;
   overflow: hidden;
   padding-top: 0px;
-  margin-left: 60%;
+ 
   position: inherit;
   z-index: 3000;
   transition: .3s;
+}
+
+.side_nav {
+  color: #FF4F2C;
+  padding-left: 10px;
+  font-family: 'Fjalla One', sans-serif;
+  font-style: bold;
+  font-size: 20px;
+  /*margin-left: 60%;*/
+ 
 }
 
 .side_nav:hover {
@@ -156,8 +138,6 @@ margin-top: 1000px;
   border: 2px solid gray;
   transition: .3s;
 }
-
-
 
 .bio /*home page*/ {
   border-top: 1px solid gray;
@@ -190,7 +170,7 @@ margin-top: 1000px;
 .portfolio {
   float: left;
   margin-right: 50px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .online_portfolio{
@@ -210,28 +190,10 @@ p, h2 {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
 }
-.blog {
-  width: 50%;
-  height: 95%; 
-  margin-left: 200px;
-  background-color: ;
-  margin-top: 200px;  
-}
-
-.work_body {
-  width: 80%;
-  height: 90%;
-  margin-left:;
-  padding-bottom: 1000px;
-}
-
-.demo_video {
-  
-}
 
 
 .side_bar {
-  display: inline;
+  display: inline-block;
   position: fixed;
   margin-left: 70%;
   margin-top: 20%;
@@ -240,25 +202,6 @@ p, h2 {
 .side_item {
   padding-left: 10px;
 }
-
-.footer {
-  display: inline;
-  margin-left: 900px;
-}
-
-footer {
-    /*border-top: 1px solid black;*/
-    padding-top: 100px;
-    margin-bottom: 100px;
-}
-
-.footer_item {
-  display: inline;
-  float: ;
-  margin: 10px;
-  padding-top: 0px;
-}
-
 
 
 
